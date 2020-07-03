@@ -1,6 +1,6 @@
 # Pivotal Build Service Spring Boot Demo
 
-### Create a team
+### Create a team for use.
 
 ``` bash
 $ pb team create example-team-name
@@ -21,7 +21,7 @@ password: .....
 $ pb secrets registry apply -f registry.yaml
 ```
 
-### Add secrets to team , this time adding adding a GIT based repository 
+### Add secrets to team , this time adding adding a GIT based repository
 
 **repository.yaml**
 
@@ -36,7 +36,7 @@ password: .....
 $ pb secrets git apply -f repository.yaml
 ```
 
-### Add secrets to team , this time adding adding a GIT based repository 
+### Add secrets to team , this time adding adding a GIT based repository
 
 **example-image.yaml**
 
@@ -92,7 +92,7 @@ spec:
           ports:
             - containerPort: 8080
 
---- 
+---
 apiVersion: v1
 kind: Service
 metadata:
